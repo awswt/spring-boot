@@ -8,6 +8,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @SpringBootApplication
 @ServletComponentScan
+//@MapperScan("org.kingder.mapper")
 public class KingderApplication {
 	private static Logger logger = LoggerFactory.getLogger(KingderApplication.class);
 

@@ -38,7 +38,7 @@ public class HelloWorldController {
 	@RequestMapping("/getUser")
 	@Cacheable(value="user-key")
 	public User getUser() {
-		User user=userRepository.findByUserName("aa@126.com");
+		User user = userRepository.findByUserName("cc3");
 		System.out.println("若下面没出现“无缓存的时候调用”字样且能打印出数据表示测试成功");
 		return user;
 	}

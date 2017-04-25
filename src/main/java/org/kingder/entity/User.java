@@ -88,4 +88,16 @@ public class User implements Serializable {
 	public void setRegTime(String regTime) {
 		this.regTime = regTime;
 	}
+
+	@Override
+	public String toString() {
+		return "User{" +
+				"id=" + id +
+				", userName='" + userName + '\'' +
+				", passWord='" + passWord + '\'' +
+				", email='" + email + '\'' +
+				", nickName='" + nickName + '\'' +
+				", regTime='" + regTime + '\'' +
+				'}';
+	}
 }
